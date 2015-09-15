@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Brandon Wood'
-SITENAME = u'h6o6'
-SITEURL = ''
+AUTHOR = u"Brandon Wood"
+SITENAME = u"h6o6"
+SITEURL = ""
 
-PATH = 'content'
+PATH = "content"
 
-TIMEZONE = 'America/New_York'
+TIMEZONE = "America/New_York"
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = u"en"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -19,15 +19,12 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (("GitHub", "https://github.com/woodb"),
+         ("Twitter", "https://twitter.com/h6o6"))
+
+# Blogroll
+LINKS = ()
 
 DEFAULT_PAGINATION = 10
 
